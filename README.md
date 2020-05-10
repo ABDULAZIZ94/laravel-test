@@ -81,3 +81,6 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # serve laravel from remote
 php artisan serve --host 0.0.0.0 --port 80
 
+# installing laravel from composer
+composer create-project --prefer-dist laravel/laravel blog
+
