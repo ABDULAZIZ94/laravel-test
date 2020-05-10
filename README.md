@@ -84,3 +84,13 @@ php artisan serve --host 0.0.0.0 --port 80
 # installing laravel from composer
 composer create-project --prefer-dist laravel/laravel blog
 
+# remigrate
+try 
+    composer dump-autoload 
+AND 
+    php artisan config:cache
+
+if not working also Try 
+    
+    php artisan migrate:refresh.
+
